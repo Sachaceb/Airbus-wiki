@@ -14,7 +14,7 @@ h2
     display: block; /* Permet d'agir comme une div */
     width: 200px;  
     padding: 15px;
-    background-color: lightblue;
+    background-color: lightgray;
     color: white;
     text-align: center;
     text-decoration: none; /* Supprime le soulignement */
@@ -26,6 +26,6 @@ h2
 }
 
 .lien-division:hover {
-    background-color: blue;
+    background-color: black;
     color: white;
 }
