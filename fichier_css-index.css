@@ -6,3 +6,22 @@ p
 {
   font-family: Calibri;
 }
+.lien-division {
+    display: block; /* Permet d'agir comme une div */
+    width: 200px;  
+    padding: 15px;
+    background-color: lightblue;
+    color: white;
+    text-align: center;
+    text-decoration: none; /* Supprime le soulignement */
+    border: 2px solid blue;
+    border-radius: 10px; /* Arrondit les bords */
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s; /* Animation fluide */
+}
+
+.lien-division:hover {
+    background-color: blue;
+    color: white;
+}
