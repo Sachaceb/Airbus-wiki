@@ -20,11 +20,11 @@ p
     display: block; /* Permet d'agir comme une div */
     width: 200px;  
     padding: 15px;
-    background-color: lightblue;
+    background-color: lightgray;
     color: white;
     text-align: center;
     text-decoration: none; /* Supprime le soulignement */
-    border: 2px solid blue;
+    border: 2px black;
     border-radius: 10px; /* Arrondit les bords */
     font-size: 18px;
     font-weight: bold;
@@ -32,6 +32,6 @@ p
 }
 
 .lien-division:hover {
-    background-color: blue;
+    background-color: black;
     color: white;
 }
