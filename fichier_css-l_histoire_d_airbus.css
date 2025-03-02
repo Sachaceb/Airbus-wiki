@@ -36,3 +36,9 @@ h2
     height: auto;
     display: block; /* Évite les espaces blancs sous l'image */
   }
+ .responsive-image
+{
+    max-width: 10%;
+    height: auto;
+    display: block; /* Évite les espaces blancs sous l'image */
+  }
