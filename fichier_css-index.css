@@ -25,3 +25,9 @@ p
     background-color: black;
     color: white;
 }
+ .responsive-image
+{
+    max-width: 10%;
+    height: auto;
+    display: block; /* Évite les espaces blancs sous l'image */
+  }
