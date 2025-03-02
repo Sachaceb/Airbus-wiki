@@ -30,3 +30,9 @@ h2
     background-color: black;
     color: white;
 }
+ .responsive-image
+{
+    max-width: 100%;
+    height: auto;
+    display: block; /* Évite les espaces blancs sous l'image */
+  }
