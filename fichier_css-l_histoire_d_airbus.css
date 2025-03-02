@@ -32,7 +32,7 @@ h2
 }
  .responsive-image
 {
-    max-width: 100%;
+    max-width: 25%;
     height: auto;
     display: block; /* Évite les espaces blancs sous l'image */
   }
