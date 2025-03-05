@@ -9,7 +9,7 @@ h1 {
   /* Largeur */
   height: 100px;
   /* Hauteur */
-  background: rgb(255, 200, 0);
+  background: rgb(176, 176, 176);
   /* Couleur de fond */
   position: relative;
   top: -10px;
@@ -37,7 +37,7 @@ img {
   font-family: "Sigmar", serif;
   font-style: normal;
   font-weight: 400;
-  color: inherit;
+  color: black;
   text-decoration: none;
   font-size: xx-large;
   transition: transform 0.3s ease;
