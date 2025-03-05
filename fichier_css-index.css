@@ -131,4 +131,5 @@ input:checked ~ .rectangle2 {
 .texte
 {
     font-family: Calibri;
+    padding-left: 10px;
 }
