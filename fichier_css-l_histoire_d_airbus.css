@@ -3,6 +3,7 @@ h1 {
   position: relative;
   top: 0px;
   left: 50px;
+  font-align: center;
 }
 
 .rectangle {
