@@ -125,3 +125,7 @@ input:checked ~ .rectangle2 {
     height: auto;
     display: block; /* Évite les espaces blancs sous l'image */
   }
+.texte
+{
+    font-family: Calibri;
+}
