@@ -43,6 +43,7 @@ img {
   transition: transform 0.3s ease;
   display: inline-block;
   z-index: 2;
+  font-weight: bold;
 }
 
 .accueil:hover {
@@ -63,6 +64,7 @@ img {
   /* Permet à transform de fonctionner correctement */
   transition: transform 0.3s ease;
   z-index: 2;
+  font-weight: bold;
 }
 
 .news:hover {
@@ -83,6 +85,7 @@ img {
   transition: transform 0.3s ease;
   display: inline-block;
   z-index: 2;
+  font-weight: bold;
 }
 
 .contact:hover {
