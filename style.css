@@ -1,65 +1,101 @@
-body 
-{
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
-    background: url("images/vol_formation_50.jpg") center/cover no-repeat fixed;
-    color: #333;
-}
+    body 
+    {
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        padding: 0;
+        background: url("images/vol_formation_50.jpg") center/cover no-repeat fixed;
+        color: #333;
+    }
 
-header 
-{
-    background: #00205B;
-    color: white;
+    header 
+    {
+        background: #00205B;
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
+
+    nav ul
+    {
+        list-style: none;
+        padding: 0;
+    }
+
+    nav ul li
+    {
+        display: inline;
+        margin: 0 15px;
+    }
+
+    nav ul li a
+    {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .phrase_accroche
+    {
+        background: url('https://source.unsplash.com/1600x900/?airplane') center/cover;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+        font-size: 2em;
+        font-weight: bold;
+    }
+    .content-section
+    {
+        padding: 50px;
+        background: rgba(255, 255, 255, 0.8);
+        margin: 20px auto;
+        width: 80%;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .pied_de_page
+    {
+        text-align: center;
+        padding: 20px;
+        background: #00205B;
+        color: white;
+    }
+/* RESPONSIVE - Adaptation mobile */
+@media screen and (max-width: 768px) {
+  nav ul {
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .phrase_accroche {
+    font-size: 1.4em;
+    height: 35vh;
     padding: 20px;
     text-align: center;
-}
+  }
 
-nav ul
-{
-    list-style: none;
-    padding: 0;
-}
+  .content-section {
+    width: 95%;
+    padding: 20px;
+    margin: 10px auto;
+  }
 
-nav ul li
-{
-    display: inline;
-    margin: 0 15px;
-}
-
-nav ul li a
-{
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.phrase_accroche
-{
-    background: url('https://source.unsplash.com/1600x900/?airplane') center/cover;
-    height: 50vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
-    font-size: 2em;
-    font-weight: bold;
-}
-.content-section
-{
-    padding: 50px;
-    background: rgba(255, 255, 255, 0.8);
-    margin: 20px auto;
+  header h1 img {
     width: 80%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-	font-family: 'Poppins', sans-serif;
-}
-.pied_de_page
-{
-    text-align: center;
-    padding: 20px;
-    background: #00205B;
-    color: white;
+    height: auto;
+  }
+
+  nav > a img,
+  .pied_de_page > a img {
+    width: 24px !important;
+    height: auto !important;
+  }
 }
